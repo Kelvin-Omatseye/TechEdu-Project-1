@@ -7,7 +7,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  /* background-color: rgb(7, 70, 67); */
+/*   /* background-color: rgb(7, 70, 67); */
 }
 
 /* .main .navbar {
@@ -20,7 +20,7 @@ body {
   top: 0;
   width: 100%;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
+} */
 
 .main .navbar .nav-links a {
   color: white;
@@ -85,7 +85,7 @@ body {
     top: 25rem;
     font-size: 1.5rem;
     
-} */
+} 
 
 @media only screen and (max-width: 768px) {
   .main .navbar {
