@@ -1,95 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-/*   /* background-color: rgb(7, 70, 67); */
-}
-
-/* .main .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.1rem;
-  background-color: #d6d6d663;
-  position: fixed;
-  top: 0;
-  width: 100%;
+body{
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-} */
-
-.main .navbar .nav-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 19px;
-  padding: 1.4rem;
 }
 
-.main .navbar .logo img {
-  margin-left: 90px;
+nav {
+ height: 80px;
+ background:rgb(88, 126, 124) ;
 }
-
-.main .navbar .download {
-  margin-right: 90px;
-  padding: 0.5rem 0.3rem;
-  border: 3px solid #d4bfec;
-  border-radius: 20px;
-  gap: 10px;
-  align-items: center;
+nav img {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 7%;
 }
-
-.download #same {
-  text-decoration: none;
-  align-items: center;
-  align-content: center;
-  padding-left: 5px;
-  font-size: 20px;
-  color: white;
-}
-
-.hero {
-  text-align: center;
-  text-align: center;
-  padding-top:0.5rem ;
-}
-.hero .custom-font {
-  position: relative;
-  top: 14rem;
-  right: 14.79rem;
-  font-size: 50px;
-  font-family: "Train One";
-  color: white;
-  font-weight: 400px;
+nav ul {
+  float: right;
+  margin-right: 9rem;
   
+
+}
+
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+nav ul li a {
+position: relative;
+color: white;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+nav .download-link {
+ position: absolute;
+ top: 0.5rem;
+ right: 5rem;
+ align-items: center;
+}
+
+
   
-}
-
-.hero .lorem {
-  position: relative;
-  top: 19rem;
-  right: 35.5rem;
-  font-size: 59px;
-  font-weight: bolder;
-  color: whitesmoke;
-  
-}
-
-.hero .container .paragraph{
-  display: flex;
-  flex-wrap: wrap;
-    position: relative;
-    top: 25rem;
-    font-size: 1.5rem;
-    
-} 
-
-@media only screen and (max-width: 768px) {
-  .main .navbar {
-    display: flex;
-    padding: 2rem;
-  }
-}
